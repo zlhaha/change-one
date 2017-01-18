@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<meta charset="UTF-8">
+	<title>QQ音乐 - 中国最新最全免费正版高品质音乐平台</title>
+	<link rel="stylesheet" href="css/QQmusictop-css.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<style>
+		.Newstart{
+			margin:50px auto;
+		}
+	</style>
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="huxudong">
+		<div class="header-top">
+			<!-- ↓导航栏样式 -->
+			<a class="header-top_logo" href=""><img src="img/logo.png" alt=""></a>
+			<ul class="header-top_navigation">
+				<li id="header_ul_li1"><a href="">音乐馆</a></li>
+				<li><a href="">我的音乐</a></li>
+				<li><a href="">下载客户端</a></li>
+				<li><a href="">vip</a></li>
+			</ul>
+			<!-- ↑导航栏样式 -->
+			<!-- ↓登陆样式 -->
+			<div class="header-top_div">
+				<input class="header-top_inp" type="text" placeholder="梦想的声音"><span class="search_span"></span>
+				<button class="header-top_but"><span></span></button>
+				<div class="search">
+					<ul>
+						<li><a name="孤芳不自赏" href="javascript:void(0);"><span class="search_num">1</span><span class="search_Text">孤芳不自赏</span><span class="search_clickrate">5.2万</span></a></li>
+						<li><a name="蒙面歌王" href="javascript:void(0);"><span class="search_num">2</span><span class="search_Text">蒙面歌王</span><span class="search_clickrate">3.8万</span></a></li>
+						<li><a name="啷个哩个啷" href="javascript:void(0);"><span class="search_num">3</span><span class="search_Text">啷个哩个啷</span><span class="search_clickrate">3万</span></a></li>
+						<li><a name="林夕" href="javascript:void(0);"><span class="search_num">4</span><span class="search_Text">林夕</span><span class="search_clickrate">2.9万</span></a></li>
+						<li><a name="告白气球 周杰伦" href="javascript:void(0);"><span class="search_num">5</span><span class="search_Text">告白气球 周杰伦</span><span class="search_clickrate">2.6万</span></a></li>
+					</ul>
+					<div class="SearchHistory">
+						<p>搜索历史</p>
+						<span></span>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<script>
+					$('.header-top_inp').focus(function()
+					{
+						$('.search').slideDown(500);
+					})
+					$('.header-top_inp').blur(function()
+					{
+
+						$('.search').slideUp(2000);
+					})
+				</script>
+			</div>
+			<div class="header-top_div1">
+				<span class="landing">登陆</span>
+				<span class="opengreen">开通绿砖豪华版</span>
+				<span class="openpay">开通付费包</span>
+			</div>
+			<script>
+				$('.landing').click(function()
+				{
+					$('.Qrcodeon').css('display',"block");
+					$('.bgcAll').css('display',"block");
+				})
+				$('.landing').click(function()
+				{
+				})
+			</script>
+			<!-- ↑登陆样式 -->
+			<!-- ↓导航栏样式 -->
+			<ul class="header-bottom_navigation">
+				<li><a id="homepage" href="">首页</a></li>
+				<li><a href="">歌手</a></li>
+				<li><a href="">专辑</a></li>
+				<li><a href="">排行榜</a></li>
+				<li><a href="">分类歌单</a></li>
+				<li><a href="">MW</a></li>
+			</ul>
+			<!-- ↑导航栏样式 -->
+		<div style="clear:both;"></div>
+		</div>
+
+		<!-- ↓登陆样式 -->
+		<div class="Qrcodeon">
+			<!-- 关闭按钮 -->
+			<div class="Qrcodeon-shut">
+				<a class="Qrcodeon_shut" href="#" title="关闭"></a>
+			</div>
+			<script>
+				$('.Qrcodeon_shut').click(function()
+				{
+					$('.Qrcodeon').css('display','none');
+					$('.bgcAll').css('display','none');
+				})
+			</script>
+			<!-- 二维码登陆 -->
+			<div class="Qrcodeon-body">
+				<p>快速安全登录</p>
+				<div class="QQphono">请使用<a>QQ手机版</a>扫描二维码，<br>或点击头像授权登录。</div>
+				<div class="Qrcodeon-img">
+					<img class="Qrcodeon-img1" src="img/ptqrshow.png" alt="">
+					<img src="img/QQ.gif" alt="">
+				</div>
+				<div class="Qrcodeon-img_RichScan"><img src="img/small_24_tiny.png" alt=""></div>
+			</div>
+			<div class="Qrcodeon-footer1">
+				<div class="Qrcodeon-footer_left">
+					<span></span>
+					<p>下次自动登录</p>
+				</div>
+				<div class="Qrcodeon-footer_right1">
+					<span class="Qrcodeon-footer_span">帐号密码登录</span>
+					<span>|</span>
+					<a href="https://ssl.ptlogin2.qq.com/j_newreg_url" target="_blank">注册新账号</a>
+					<span>|</span>
+					<a href="http://support.qq.com/write.shtml?guest=1&fid=713&SSTAG=hailunna" target="_blank">意见反馈</a>
+				</div>
+				<script>
+					var k=0;
+					$('.Qrcodeon-footer_left').click(function()
+					{
+							if(k==0){
+								$('.Qrcodeon-footer_left span').css('background-position','-75px -162px');
+								k=1;
+							}
+							else{
+								$('.Qrcodeon-footer_left span').css('background-position','-93px -162px');
+								k=0;
+							}
+					})
+					$('.Qrcodeon-footer_span').click(function()
+					{
+						$('.Qrcodeon-body_two').css('display','block');
+						$('.Qrcodeon-footer2').css('display','block');
+						$('.Qrcodeon-body').css('display','none');
+						$('.Qrcodeon-footer1').css('display','none');
+					})
+				</script>
+			</div>
+			<!-- 帐号密码登录 -->
+			<div class="Qrcodeon-body_two">
+				<p>帐号密码登录</p>
+				<div class="QQphono">推荐使用<a class="Quicklogin">快速安全登录</a>，防止盗号。</div>
+				<div class="login-accounts">
+					<input type="text" placeholder="支持QQ号/邮箱/手机号登陆">
+					<span class="Qrcodeon-footer_close"></span>
+				</div>
+				<div class="login-password">
+					<input type="password">
+					<span>密码</span>
+				</div>
+				<div class="login-button">
+					<input type="button" value="登陆">
+				</div>
+				<script>
+					// 点击帐号密码登录显示帐号密码登录页面
+					$('.Qrcodeon-footer_close').mouseover(function()
+					{
+						$('.Qrcodeon-footer_close').css('background-position','-139px -162px');
+					})
+					$('.Qrcodeon-footer_close').mouseout(function()
+					{
+						$('.Qrcodeon-footer_close').css('background-position','');
+					})
+					// 点击快速安全登录返回二维码登陆页面
+					$(".Quicklogin").click(function()
+					{
+
+						$('.Qrcodeon-body_two').css('display','none');
+						$('.Qrcodeon-footer2').css('display','none');
+						$('.Qrcodeon-body').css('display','block');
+						$('.Qrcodeon-footer1').css('display','block');
+					})
+				</script>
+			</div>
+			<script>
+				$(".Qrcodeon-img1").mouseover(function()
+				{
+					$(".Qrcodeon-img").next().fadeIn(2000);
+				})
+				$(".Qrcodeon-img1").mouseout(function()
+				{
+					$(".Qrcodeon-img").next().fadeOut(2000);
+				})
+			</script>
+			<div class="Qrcodeon-footer2">
+				<div class="Qrcodeon-footer_left">
+					<span></span>
+					<p>下次自动登录</p>
+				</div>
+				<div class="Qrcodeon-footer_right2">
+					<a class="Qrcodeon-footer_span" href="https://ssl.ptlogin2.qq.com/ptui_forgetpwd" target="_blank">忘了密码？</a>
+					<span>|</span>
+					<a href="https://ssl.ptlogin2.qq.com/j_newreg_url" target="_blank">注册新账号</a>
+					<span>|</span>
+					<a href="http://support.qq.com/write.shtml?guest=1&fid=713&SSTAG=hailunna" target="_blank">意见反馈</a>
+				</div>
+			</div>
+		</div>
+		<div class="bgcAll"></div>
+		<!-- ↑登陆样式 -->
+	</div>
+	<!-- 新歌发布 -->
+		<iframe src="../QQ音乐-banner/新歌发布.html" width="100%" height="680px" frameborder="0" scrolling="no"></iframe>
+	<!-- 精彩推荐 -->
+		<iframe src="../Recommend/Recommend.html" width="100%" height="560px" frameborder="0" scrolling="no"></iframe>
+	<!-- 排行榜 -->
+		<iframe src="../QQmusic/Leaderboard.html" width="100%" height="830px" frameborder="0" scrolling="no"></iframe>
+	<!-- 热门歌单 -->
+		<iframe src="../hotSong/hotSong.html" width="100%" height="690px" frameborder="0" scrolling="no"></iframe>
+	<!-- MV-firstRun -->
+		<iframe src="../qq音乐/MV首播.html" width="100%" height="837px" frameborder="0" scrolling="no"></iframe>
+	<!-- footer -->
+		<iframe src="../qq音乐/首页底部.html" width="100%" height="512px" frameborder="0" scrolling="no"></iframe>
+</body>
+</html>

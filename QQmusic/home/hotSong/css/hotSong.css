@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.hotSongFather{
+	position: relative;
+	overflow: hidden;
+	height: 690px;
+	margin: 50px 0px;
+}
+.hotSong{
+	margin: 0 auto;
+	width: 1200px;
+	background-color: #FFFFFF;
+}
+.hotSongList{
+/*	margin: 0 auto;*/
+	width: 1200px;
+	height: 465px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom:25px;
+}
+.HSTop{
+	text-align: center;
+	font-size: 46px;
+	font-family: '微软雅黑';
+	margin-bottom: 30px;
+}
+.HSTop i{
+	display: inline-block;
+	margin: 0 50px;
+	width: 80px;
+	height: 1px;
+	background-color: #E6E6E6;
+	vertical-align: middle;
+}
+.hotSong ul{
+	width: 3600px;
+	height: 465px;
+	list-style-type: none;
+	position: absolute;
+}
+.hotSong ul li{
+	display: inline-block;
+	width: 300px;
+	height: 465px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.hotSong ul li img{
+	width: 300px;
+	height: 300px;
+	transition: transform 0.5s linear 0s;
+	float: left;
+}
+.hotSong ul li:hover img{
+	transform:scale(1.1,1.1);
+	cursor: pointer;
+}
+.leftButton,.rightButton{
+	display: inline-block;
+	width: 74px;
+	height: 105px;
+	background-color: #D6D6D6;
+	position: absolute;
+	top: 280px;
+	cursor: pointer;
+}
+.allButton:hover{
+	background-color: #31C27C;
+}
+.leftButton{
+	left: -74px;
+}
+.rightButton{
+	right: -74px;
+}
+.allButton i{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+}
+.rightButton i{
+	background-image: url(../images/icon_sprite@2x.png);
+	background-position: -315px 0px;
+	left:20px;
+	top: 30px;
+}
+.leftButton i{
+	background-image: url(../images/icon_sprite@2x.png);
+	background-position: -356px 0px;
+	left:20px;
+	top: 30px;
+}
+.player{
+	position: absolute;
+	top: 115px;
+	left: 115px;
+	width: 70px;
+	height: 70px;
+	background-image: url(../images/cover_play.png);
+	opacity: 0.8;
+	display: none;
+}
+.hotSong li:hover .player{
+	display: block;
+	cursor: pointer;
+}
+.player:hover{
+	opacity: 1;
+}
+.imgText{
+	display: inline-block;
+	width: 300px;
+	height: 165px;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+}
+.hotSong ul li:hover .imgText{
+	background-color: #31C27C !important;
+}
+.hotSong ul li:hover .imgText span{
+	color:#B7E6CF;
+}
+.imgText:hover{
+	background-color: #31C27C !important;
+}
+.imgText:hover span{
+	color:#B7E6CF;
+}
+.imgText a{
+	display: inline-block;
+	width: 240px;
+	height: 24px;
+	color: white;
+	text-decoration: none;
+	margin: 60px 0px 10px 0px;
+	padding-right: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	/*position: relative;*/
+}
+.imgText span{
+	display: inline-block;
+	color: #999999;
+}
+.imgText a i{
+	display: inline-block;
+	width: 20px;
+	height: 22px;
+	background-image: url(../images/icon_sprite.png);
+	background-position: 20px 241px;
+	position: absolute;
+	top: 58px;
+	left: 260px;
+	display: none;
+}
+.hotSong ul li:hover a i{
+	display: block;
+}
+.imgText:hover a i{
+	display: block;
+}
+.HSFooter{
+	text-align: center;
+}
+.HSFooter a{
+	display: inline-block;
+	margin:  0px 8px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.HSFooter i{
+	display: inline-block;
+	width: 30px;
+	height: 1px;
+	background-color: #B9B9B9;
+	vertical-align: middle;
+}

@@ -1,0 +1,479 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+body{
+	position: relative;
+}
+.huxudong{
+	width: 1240px;
+	height: 140px;
+	background: #fff;
+	margin:0 auto;
+	position: relative;
+	font-family:Arial,'微软雅黑';
+}
+/*头部样式*/
+.header-top{
+	width: 1200px;
+	margin:0 auto;
+}
+/*↓导航栏样式*/
+.header-top_logo{
+	float: left;
+	position: relative;
+	top:22px;
+	left:0px;
+}
+.header-top_navigation{
+	position: absolute;
+	top: 0px;
+	left:190px;
+}
+.header-top_navigation li{
+	float: left;
+}
+.header-top_navigation li a{
+	display: block;
+	text-decoration: none;
+	color:#333333;
+	height: 90px;
+	line-height: 90px;
+	padding:0px 20px;
+	font-size:18px;
+}
+#header_ul_li1{
+	background:#31C27C;
+	margin-left:50px;
+}
+#header_ul_li1 a{
+	color:white;
+}
+.header-top_navigation li a:hover{
+	color:#31C27C;
+}
+/*↑导航栏样式*/
+/*↓搜索框样式*/
+.header-top_div{
+	width: 250px;
+	height:36px;
+	border: 1px solid #c9c9c9;
+	position: absolute;
+	top:27px;
+	left:680px;
+}
+.header-top_inp{
+	float: left;
+	padding-left:12px;
+	width:200px;
+	height:36px;
+	border:none;
+	outline: none;
+	font-size:20px;
+}
+/*改变input里面placeholder的样式*/
+.header-top_div input::-webkit-input-placeholder{
+	color:gray;
+	font-size: 16px;
+	height: 36px;
+}
+.header-top_but{
+	float: left;
+	background:#fff;
+	cursor:pointer;
+	width: 38px;
+	height: 36px;
+	border: none;
+	outline: none;
+}
+.header-top_but span{
+	display: block;
+	width:16px;
+	height:16px;
+	background:url(../img/icon_sprite.png) no-repeat 0px -40px;
+	position: absolute;
+	top:10px;
+	left:224px;
+
+}
+.header-top_div{
+}
+.search{
+	display: none;
+	width: 252px;
+	border-width:0px 1px 1px 1px;
+	border-style:solid;
+	border-color:#C9C9C9;
+	box-sizing: border-box;
+	position: absolute;
+	top:37px;
+	left:-1px;
+	background:white;
+	z-index:1000;
+}
+.search li{
+	width: 250px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+}
+.search li a{
+	text-decoration: none;
+}
+.search .search_num{
+	color: red;
+	padding:0 10px 0 10px;
+}
+.search .search_Text{
+	color: #333333;
+}
+.search .search_clickrate{
+	width:40px;
+	height: 36px;
+	text-align: center;
+	float: right;
+	color: #999999;
+	margin-right:10px;
+}
+.search ul li:hover{
+	background:#31C27C;
+}
+.search ul li:hover span{
+	color: white;
+}
+.SearchHistory{
+	width: 250px;
+	height: 36px;
+	line-height: 36px;
+}
+.SearchHistory p{
+	float: left;
+	color:#ABABAB;
+	font-size: 14px;
+	padding-left: 10px;
+}
+.SearchHistory span{
+	float: right;
+	display: block;
+	width: 16px;
+	height: 16px;
+	margin:10px 10px 0px 0px;
+	background:url(../img/icon_sprite.png) no-repeat -100px 0px;
+}
+.SearchHistory span:hover{
+	background-position: -20px -60px;
+}
+/*↑搜索框样式*/
+/*↓登陆样式*/
+.header-top_div1{
+	height: 36px;
+	position: absolute;
+	top:27px;
+	right:0px;
+}
+.header-top_div1 span{
+	float: left;
+	display: block;
+	margin-left:20px;
+	text-decoration: none;
+	height:40px;
+	line-height:40px;
+	font-size: 14px;
+}
+.header-top_div1 .landing{
+	color: black;
+	cursor:pointer;
+}
+.header-top_div1 .opengreen{
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	background:#31C27C;
+	color:white;
+	border-radius:2px;
+	cursor:pointer;
+}
+.header-top_div1 .openpay{
+	width:100px;
+	height:40px;
+	text-align: center;
+	background:#fff;
+	color:black;
+	border: 1px solid #C9C9C9;
+	box-sizing: border-box;
+	border-radius:2px;
+	cursor:pointer;
+}
+.header-top_div1 .landing:hover{
+	color:#31C27C;
+}
+.header-top_div1 .opengreen:hover{
+	background:#148950;
+}
+.header-top_div1 .openpay:hover{
+	background:#e6e6e6;
+}
+.Qrcodeon{
+	z-index: 1000;
+	position: fixed;
+	margin:auto;
+	top:0px;
+	right:0px;
+	bottom: 0px;
+	left:0px;
+	width:564px;
+	height: 380px;
+	background:white;
+	display: none;
+}
+.Qrcodeon-shut{
+	float: right;
+	width: 50px;
+	height: 50px;
+}
+.Qrcodeon_shut{
+	display: block;
+	width:20px;
+	height:20px;
+	background:url(../img/icon_sprite.png) no-repeat -37px -177px;
+	position: absolute;
+	top:15px;
+	right: 15px;
+}
+/*↓二维码登陆样式*/
+.Qrcodeon-body{
+	margin-top: 50px;
+	/*display: none;*/
+}
+.Qrcodeon-body p{
+	text-align: center;
+	font-size: 16px;
+	color: #4B4B4B;
+	padding-bottom: 20px;
+}
+.QQphono{
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+	margin-bottom:40px;
+}
+.QQphono a{
+	text-decoration: none;
+	color: #4B8FD4;
+}
+.Qrcodeon-body .QQphono a:hover{
+	border-bottom:2px solid #4B8FD4;
+	cursor: pointer;
+}
+.Qrcodeon-img{
+	width: 400px;
+	text-align: center;
+	margin:0 auto;
+}
+.Qrcodeon-img img{
+	width: 111px;
+	height: 111px;
+}
+.Qrcodeon-img_RichScan{
+	display: none;
+	position: absolute;
+	top: 126px;
+	left:303px;
+}
+/*↑二维码登陆样式*/
+/*↓帐号密码登录样式*/
+.Qrcodeon-body_two{
+	margin-top: 50px;
+	display: none;
+}
+.Qrcodeon-body_two p{
+	text-align: center;
+	font-size: 16px;
+	color: #4B4B4B;
+	padding-bottom: 20px;
+}
+.login-accounts{
+	width: 270px;
+	height: 40px;
+	border: 1px solid #E9E9E9;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.login-accounts input{
+	display: block;
+	border: none;
+	width: 268px;
+	height: 38px;
+	line-height: 38px;
+	text-indent:10px;
+	font-size: 20px;
+}
+.login-accounts input::-webkit-input-placeholder{
+	color:gray;
+	font-size: 16px;
+	height: 40px;
+}
+.Qrcodeon-footer_close{
+	display: none;
+	position: absolute;
+	top: 162px;
+	left:390px;
+	width: 21px;
+	height:21px;
+	background:url(../img/icon_3_tiny.png) no-repeat -116px -162px;
+}
+.login-password{
+	width: 270px;
+	height: 40px;
+	border: 1px solid #E9E9E9;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.login-password input{
+	display: block;
+	border: none;
+	width: 268px;
+	height: 38px;
+	line-height: 38px;
+	text-indent:10px;
+	font-size: 20px;
+}
+.login-password span{
+	position: absolute;
+	top:208px;
+	left: 160px;
+	font-size: 14px;
+	color:#B2B2B2;
+	cursor: text;
+}
+.login-button{
+	width: 270px;
+	height: 40px;
+	border-radius: 5px;
+	margin:0 auto;
+}
+.login-button input{
+	background:#86CE2F;
+	width: 270px;
+	height: 40px;
+	line-height:40px;
+	text-indent:10px;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	cursor:pointer;
+}
+.Qrcodeon-body_two .QQphono a:hover{
+	border-bottom: 2px solid #4B8FD4;
+	cursor: pointer;
+}
+/*↑帐号密码登录样式*/
+.Qrcodeon-footer1{
+	width: 1200px;
+	margin-top: 70px;
+}
+.Qrcodeon-footer2{
+	display: none;
+	width: 1200px;
+	margin-top:64px;
+}
+.Qrcodeon-footer_left{
+	float: left;
+	margin-left:30px;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	cursor:pointer;	
+}
+.Qrcodeon-footer_left span{
+	float: left;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background:url(../img/icon_3_tiny.png) no-repeat -93px -162px;
+}
+.Qrcodeon-footer_left p{
+	float: left;
+	display: block;
+	height: 18px;
+	font-size: 12px;
+}
+.Qrcodeon-footer_right1{
+	float: left;
+	padding-left:220px;
+	cursor: pointer;
+}
+.Qrcodeon-footer_right2{
+	float: left;
+	padding-left:232px;
+	cursor: pointer;
+}
+.Qrcodeon-footer_span{
+	font-size: 12px;
+	color: #909090;
+}
+.Qrcodeon-footer_right1 a,.Qrcodeon-footer_right2 a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #909090;
+}
+.Qrcodeon-footer_right1 span,.Qrcodeon-footer_right2 span{
+	color: #909090;
+}
+.Qrcodeon-footer_right1 a:hover{
+	text-decoration: underline;
+}
+.Qrcodeon-footer_right1 .Qrcodeon-footer_span:hover{
+	text-decoration: underline;
+}
+.Qrcodeon-footer_right2 a:hover{
+	text-decoration: underline;
+}
+.Qrcodeon-footer_right2 .Qrcodeon-footer_span:hover{
+	text-decoration: underline;
+}
+/*整屏布满背景图片*/
+.bgcAll{
+	display: none;
+	position: fixed;/*fixed:生成绝对定位的元素，相对于浏览器窗口进行定位。*/
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.2);
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+/*↑登陆样式*/
+/*↓导航栏样式*/
+.header-bottom_navigation{
+	width: 1200px;
+	height: 50px;
+	line-height: 50px;
+	border-top:1px solid #f2f2f2;
+	box-sizing: border-box;
+	position: absolute;
+	top: 90px;
+	padding-left: 256px;
+}
+.header-bottom_navigation li{
+	float: left;
+	margin-right: 56px;
+}
+.header-bottom_navigation li a{
+	text-decoration: none;
+	color:#000;
+	font-size: 16px;
+}
+#homepage{
+	color:#31C27C;
+}
+
+.header-bottom_navigation li a:hover{
+	color:#31C27C;
+}
+/*↑导航栏样式*/

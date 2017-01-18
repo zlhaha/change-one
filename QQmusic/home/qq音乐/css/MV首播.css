@@ -1,0 +1,141 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.missZhang_all{
+	background-color: #E6E6E6;
+	min-width: 1240px;
+}
+.missZhang_all a{
+	text-decoration: none;
+	color: #353535;
+}
+.missZhang_content{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+.missZhang_content .missZhang_head{
+	position: relative;
+	height: 49px;
+	padding:80px 0px 50px 0px;
+}
+.missZhang_content .missZhang_head span,.missZhang_head i{
+	position: absolute;
+}
+.missZhang_content .missZhang_head span{
+	display: inline-block;
+	width: 169px;
+	height: 44px;
+	background-image: url(../img/index_tit.png);
+	background-repeat: no-repeat;
+	background-position: 0px -183px;
+	top: 83px;
+	left: 516px;
+}
+.missZhang_head i{
+	position: absolute;
+	width: 72px;
+	height: 1px;
+	background-color: #CFCFCF;
+}
+.missZhang_head .missZhang_lineleft{
+
+	left: 340px;
+	top: 104px;
+}
+.missZhang_head .missZhang_lineright{
+	left: 780px;
+	top: 104px;
+}
+.missZhang_nav{
+	text-align: center;
+	height: 50px;
+}
+.missZhang_nav .missZhang_navone{
+	color: black;
+}
+.missZhang_nav a{
+	cursor: pointer;
+	margin: 0px 35px;
+	color: #999999;
+}
+.missZhang_nav a:hover{
+	color: black;
+}
+.missZhang_imgall img{
+	margin-bottom: 34px;
+	width: 300px;
+	height: 170px;
+	/*border: 1px solid red;*/
+	transition: transform 0.5s linear;
+}
+
+.missZhang_imgall img:hover{
+	transform: scale(1.1);
+}
+.missZhang_imgall ul{
+	overflow: hidden;
+}
+.missZhang_allmv{
+	display: inline-block;
+	width: 40px;
+	height: 18px;
+	position: absolute;
+	right: 0px;
+}
+.missZhang_imgall ul li{
+	float: left;
+	width: 300px;
+	height: 304px;
+}
+.missZhang_imgall ul li a,.missZhang_imgall ul li p{
+	width: 300px;
+	display: inline-block;
+	text-align: center;
+}
+.missZhang_imgall ul li a:hover{
+	color: #31C27C;
+}
+.missZhang_imgall ul li .name{
+	padding: 5px 0px;
+}
+.missZhang_imgall ul li .img{
+	width: 300px;
+	height: 170px;
+	position: relative;
+	overflow: hidden;
+}
+
+.missZhang_imgall ul li .play{
+	width: 70px;
+	height: 70px;
+	background-image: url(../img/cover_play.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	background-size: 54px;
+	top: 52px;
+	left: 118px;
+	display: none;
+	/*transition: none 0.5s linear;*/
+}
+/*.missZhang_imgall ul li .img:hover .play{
+	display: block;
+	/*background-size: 70px;*/
+/*}*/
+.missZhang_imgall ul li p b{
+	background-image: url(../img/icon_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -180px -12px;
+	width: 20px;
+	height: 20px;
+	/*border: 1px solid red;*/
+	display: inline-block;
+	margin-right: 5px;
+}
+.missZhang_land,.missZhang_hongkong,.missZhang_us,.missZhang_Korea,.missZhang_japan{
+	display: none;
+}
+

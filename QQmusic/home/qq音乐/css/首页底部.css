@@ -1,0 +1,169 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.missZhang_all{
+	min-width: 1240px;
+	height: 512px;
+	background-color: #333333;
+	color: #999;
+	font-family: "Arial";
+}
+a{
+	color: #999;
+	text-decoration: none;
+}
+a:hover{
+	color: #31C27C;
+}
+.missZhang_main{
+	margin: 0 auto;
+	clear: both;
+	width: 1200px;
+	height: 388px;
+}
+.missZhang_loadmus h4,.missZhang_spepro h4{
+	/*display: inline-block;*/
+	padding-bottom: 80px;
+}
+.missZhang_coolink h4{
+	padding-bottom: 30px;
+}
+.missZhang_loadmus,.missZhang_spepro,.missZhang_coolink{
+	display: inline-block;
+	width: 375px;
+	
+	float: left;
+	margin-top: 50px;
+}
+.missZhang_coolink{
+	line-height: 40px;
+	margin-left: 6px;
+}
+.missZhang_spepro{
+	line-height: 50px;
+}
+.missZhang_loadmus{
+	line-height: 50px;
+	padding:0px 69px 0px 0px;
+	/*vertical-align: top;*/
+}
+
+.missZhang_loadmus .missZhang_left p{
+	display: inline-block;
+	width: 85px;
+}
+.missZhang_spepro .missZhang_center p{
+	display: inline-block;
+}
+.missZhang_center .missZhang_th a{
+	padding-right: 15px;
+}
+.missZhang_coolink ul{
+	text-align: 
+	width: 376px;
+	/*overflow: hidden;*/
+}
+.missZhang_coolink ul li{
+	font-size: 14px;
+	min-width: 88px;
+	display: inline-block;
+}
+.missZhang_pc,.missZhang_mac,.missZhang_android,.missZhang_iphone,.missZhang_kg,.missZhang_SS,.missZhang_QP{
+	position: relative;
+}
+.missZhang_kg,.missZhang_SS,.missZhang_QP{
+	padding-right: 25px;
+}
+i{
+	position: absolute;
+	/*border: 1px solid red;*/
+	background-image: url(../img/footer.png);
+}
+/*背景图片*/
+.missZhang_pc i{
+	width: 42px;
+	height: 41px;
+	background-position: 0px -5px;
+	top: -39px;
+	left: -3px;
+}
+.missZhang_pc i:hover{
+	background-position: 0px -54px;
+}
+.missZhang_mac i{
+	width: 50px;
+	height: 45px;
+	background-position: -90px -5px;
+	top: -39px;
+	left: -5px;
+}
+.missZhang_mac i:hover{
+	background-position: -90px -54px;
+}
+.missZhang_android i{
+	width: 50px;
+	height: 44px;
+	background-position: -177px -2px;
+	top: -42px;
+	left: 6px;
+}
+.missZhang_android i:hover{
+	background-position: -177px -51px;
+}
+.missZhang_iphone i{
+	width: 50px;
+	height: 50px;
+	background-position: -270px -2px;
+	top: -42px;
+	left: 0px;
+}
+.missZhang_iphone i:hover{
+	background-position: -270px -51px;
+}
+.missZhang_kg i{
+	width: 50px;
+	height: 50px;
+	background-position: -363px -2px;
+	top: -42px;
+	left: 0px;
+}
+.missZhang_kg i:hover{
+	background-position: -363px -51px;
+}
+.missZhang_SS i{
+	width: 50px;
+	height: 50px;
+	background-position: -448px -2px;
+	top: -42px;
+	left: 12px;
+}
+.missZhang_SS i:hover{
+	background-position: -448px -51px;
+}
+.missZhang_QP i{
+	width: 50px;
+	height: 50px;
+	background-position: -559px -2px;
+	top: -42px;
+	left: 0px;
+}
+.missZhang_QP i:hover{
+	background-position: -559px -51px;
+}
+/*最底部*/
+.missZhang_foot{
+	width: 1200px;
+	font-size: 14px;
+	margin: 0 auto;
+	line-height: 30px;
+}
+.missZhang_foot a{
+	padding-right: 5px;
+}
+
+.missZhang_foot p{
+	text-align: center;
+}

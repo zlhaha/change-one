@@ -1,0 +1,226 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.xudong_hu{
+	width: 100%;
+}
+.Backgroundpicture{
+	/*width: 100%;
+	height: 830px;*/
+	background-image:url(../img/bg_index.jpg);
+	background-attachment:fixed;/*当页面的其余部分滚动时，背景图像不会移动。*/
+	background-repeat:no-repeat;
+	background-size:cover;
+	/*把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。背景图像的某些部分也许无法显示在背景定位区域中。*/
+}
+.Leaderboard{
+	width:1200px;
+	height: 830px;
+	margin:0 auto;
+}
+.Leaderboard-header{
+	width: 500px;
+	height: 60px;
+	line-height: 60px;
+	margin:0px auto;
+	padding-top: 60px;
+
+}
+.Leaderboard_top_span1{
+	display: block;
+	margin-top: 29px;
+	width:80px;
+	height:2px;
+	float: left;
+	background: #262626;
+}
+.Leaderboard_top_span2{
+	display: block;
+	margin-top: 29px;
+	width:80px;
+	height:2px;
+	float: right;
+	background: #262626;
+}
+.Leaderboard-header p{
+	float: center;
+	color: white;
+	text-align: center;
+	font-size:46px;
+}
+.All_Leaderboard a{
+	float: right;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+}
+.All_Leaderboard a:hover{
+	color:#31C27C;
+}
+/*↓主要内容*/
+.Leaderboard-body{
+	width: 1200px;
+	margin-top:30px;
+}
+.Leaderboard-body ul li{
+	float: left;
+}
+.Leaderboard-body ul li a{
+	text-decoration: none;
+}
+.bgc1,.bgc2,.bgc3,.bgc4{
+	position: relative;
+	overflow: hidden;
+}
+.bgc1All,.bgc2All,.bgc3All,.bgc4All{
+	width:300px;
+	height:567px;
+}
+.bgc1 img,.bgc2 img,.bgc3 img,.bgc4 img{
+	display: block;
+	width:300px;
+	height:567px;
+	transition: transform 1s linear 0s;/*使用2D缩放scale()效果实现图片放大缩小*/
+}
+.bgc1_all,.bgc2_all,.bgc3_all,.bgc4_all{
+	width: 300px;
+	height: 567px;
+}
+.bgc1_one_top,.bgc2_two_top,.bgc3_three_top,.bgc4_four_top{
+	margin-top: 60px;
+}
+.bgc1 .bgc1_one div a,.bgc2 .bgc2_two div a,.bgc3 .bgc3_three div a,.bgc4 .bgc4_four div a{
+	color: white;
+	font-size:20px;
+}
+.bgc1 .bgc1_one div,.bgc2 .bgc2_two div,.bgc3 .bgc3_three div,.bgc4 .bgc4_four div,
+.bgc1 h2,.bgc2 h2,.bgc3 h2,.bgc4 h2{
+	width: 100px;
+	text-align: center;
+	padding-left:50px;
+}
+.bgc1 h2 a,.bgc2 h2 a,.bgc3 h2 a,.bgc4 h2 a{
+	color: white;
+	font-size:24px;
+}
+.bgc1_one_span,.bgc2_two_span,.bgc3_three_span,.bgc4_four_span{
+	display: block;
+	width: 60px;
+	height: 2px;
+	background:#ddd;
+	margin:80px 0px 0px 120px;
+}
+.bgc1_body li,.bgc2_body li,.bgc3_body li,.bgc4_body li{
+	width: 300px;
+	line-height: 30px;
+	margin-left:60px;
+}
+.bgc1_body li a,.bgc2_body li a,.bgc3_body li a,.bgc4_body li a{
+	color: white;
+	font-size: 16px;
+}
+.bgc1_body li span,.bgc2_body li span,.bgc3_body li span,.bgc4_body li span{
+	font-size: 16px;
+	padding-right: 10px;
+}
+.bgc1_body p a,.bgc2_body p a,.bgc3_body p a,.bgc4_body p a{
+	font-size: 14px;
+	color:#c0a0a0;
+	padding-left: 20px;
+}
+/*↓第一张背景图片*/
+.Leaderboard-body ul .bgc1 .bgc1_one{
+	position: absolute;
+	top:15px;
+	left:0px;
+}
+.bgc1:hover img{
+	transform: scale(1.1);
+}
+.Allplaybutton1{
+	display: none;
+	width: 70px;
+	height: 70px;
+	background:url(../img/cover_play.png) no-repeat 0px 0px;
+	position: absolute;
+	top:160px;
+	left: 115px;
+}
+.bgc1_body{
+	position: absolute;
+	top:250px;
+	left: 0px;
+}
+/*↓第二张背景图片*/
+.Leaderboard-body ul .bgc2 .bgc2_two{
+	position: absolute;
+	top:15px;
+	left:0px;
+}
+.bgc2:hover img{
+	transform: scale(1.1);
+}
+.Allplaybutton2{
+	display: none;
+	width: 70px;
+	height: 70px;
+	background: url(../img/cover_play.png) no-repeat 0px 0px;
+	position: absolute;
+	top:160px;
+	left: 115px;
+}
+.bgc2_body{
+	position: absolute;
+	top:250px;
+	left: 0px;
+}
+/*↓第三张背景图片*/
+.Leaderboard-body ul .bgc3 .bgc3_three{
+	position: absolute;
+	top:15px;
+	left:0px;
+}
+.bgc3:hover img{
+	transform: scale(1.1);
+}
+.Allplaybutton3{
+	display: none;
+	width: 70px;
+	height: 70px;
+	background: url(../img/cover_play.png) no-repeat 0px 0px;
+	position: absolute;
+	top:160px;
+	left: 115px;
+}
+.bgc3_body{
+	position: absolute;
+	top:250px;
+	left: 0px;
+}
+
+/*↓第四张背景图片*/
+.Leaderboard-body ul .bgc4 .bgc4_four{
+	position: absolute;
+	top:15px;
+	left:0px;
+}
+.bgc4:hover img{
+	transform: scale(1.1);
+}
+.Allplaybutton4{
+	display: none;
+	width: 70px;
+	height: 70px;
+	background: url(../img/cover_play.png) no-repeat 0px 0px;
+	position: absolute;
+	top:160px;
+	left: 115px;
+}
+.bgc4_body{
+	position: absolute;
+	top:250px;
+	left: 0px;
+}
